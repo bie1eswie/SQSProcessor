@@ -3,7 +3,6 @@ service: sqs-message-processor
 plugins:
   - serverless-esbuild # used for compiling/packaging the Typescript code
   - serverless-offline # used for local execution
-  - serverless-plugin-typescript
 
 provider:
   name: aws

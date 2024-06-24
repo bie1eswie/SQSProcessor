@@ -178,7 +178,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/sqs-message-processor/dev/1719232634723-2024-06-24T12:37:14.723Z/sqs-message-processor.zip"
+                "S3Key": "serverless/sqs-message-processor/dev/1719252504910-2024-06-24T18:08:24.910Z/sqs-message-processor.zip"
               },
               "Handler": "./src/emailHandler.handler",
               "Runtime": "nodejs20.x",
@@ -498,7 +498,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "serverless/sqs-message-processor/dev/1719232634723-2024-06-24T12:37:14.723Z",
+    "artifactDirectoryName": "serverless/sqs-message-processor/dev/1719252504910-2024-06-24T18:08:24.910Z",
     "artifact": "sqs-message-processor.zip"
   }
 }

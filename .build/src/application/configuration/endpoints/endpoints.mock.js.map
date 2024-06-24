@@ -1,0 +1,1 @@
+{"version":3,"file":"endpoints.mock.js","sourceRoot":"","sources":["../../../../../src/application/configuration/endpoints/endpoints.mock.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,aAAa;IACxB,gBAAe,CAAC;IAChB,WAAW,GAA0B;QACnC,oBAAoB,EAAE,GAAW,EAAE;YACjC,OAAO,GAAG,OAAO,CAAC,GAAG,CAAC,gBAAgB,OAAO,CAAC;QAChD,CAAC;KACF,CAAC;CACH"}
