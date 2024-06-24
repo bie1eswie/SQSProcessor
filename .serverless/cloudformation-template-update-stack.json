@@ -162,7 +162,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/sqs-message-processor/dev/1719224361623-2024-06-24T10:19:21.623Z/sqs-message-processor.zip"
+          "S3Key": "serverless/sqs-message-processor/dev/1719232634723-2024-06-24T12:37:14.723Z/sqs-message-processor.zip"
         },
         "Handler": "./src/emailHandler.handler",
         "Runtime": "nodejs20.x",
@@ -186,14 +186,14 @@
         "EmailDashprocessorLogGroup"
       ]
     },
-    "EmailDashprocessorLambdaVersionwPLWkmLauVdF9gVSpjNV1LeN7h1Oif12oN9eeS35k": {
+    "EmailDashprocessorLambdaVersionifTVaAWAx3lWDvMDG7K14l4YolhUF1TCyrkRxuj6YY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "EmailDashprocessorLambdaFunction"
         },
-        "CodeSha256": "HgvBxO3A4CVMA0ysjVdZ4KtbT4NkMCNXIZ6QS+81biQ="
+        "CodeSha256": "1ABNEHZnJLmvP8GeZAL7gjrSfWIiLMJI5HzHpN0uAS8="
       }
     },
     "HttpApi": {
@@ -304,7 +304,7 @@
     "EmailDashprocessorLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "EmailDashprocessorLambdaVersionwPLWkmLauVdF9gVSpjNV1LeN7h1Oif12oN9eeS35k"
+        "Ref": "EmailDashprocessorLambdaVersionifTVaAWAx3lWDvMDG7K14l4YolhUF1TCyrkRxuj6YY"
       },
       "Export": {
         "Name": "sls-sqs-message-processor-dev-EmailDashprocessorLambdaFunctionQualifiedArn"
